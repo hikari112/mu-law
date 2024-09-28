@@ -1,0 +1,61 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
+		},
+		{
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
+		},
+		{
+			"id" : "sdk::@cd6fd055087e8e969d30"
+		},
+		{
+			"id" : "mu_law::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "sdk_hosting::@cd6fd055087e8e969d30"
+		},
+		{
+			"id" : "validator::@cb6a5f45744856ded658"
+		},
+		{
+			"id" : "moduleinfotool::@0ccd92616ad435ec5cfd"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,609 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "VST3/Debug/mu_law.vst3/Contents/x86_64-win/mu_law.vst3"
+		},
+		{
+			"path" : "WIN_PDB64/Debug/mu_law.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"smtg_add_vst3plugin_with_pkgname",
+			"smtg_add_vst3plugin",
+			"target_link_libraries",
+			"add_custom_command",
+			"smtg_target_run_vst_validator",
+			"smtg_target_create_module_info_file",
+			"add_compile_options",
+			"smtg_setup_platform_toolset",
+			"smtg_enable_vst3_sdk",
+			"target_compile_options",
+			"smtg_target_make_plugin_package",
+			"add_definitions",
+			"target_include_directories",
+			"smtg_target_configure_version_file",
+			"target_sources",
+			"smtg_target_add_library_main",
+			"smtg_target_add_plugin_resource",
+			"smtg_target_add_plugin_snapshots"
+		],
+		"files" : 
+		[
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddVST3Library.cmake",
+			"CMakeLists.txt",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Global.cmake",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddSMTGLibrary.cmake",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Bundle.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 138,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 45,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 193,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 31,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 11,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 78,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 85,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 86,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 87,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 88,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 89,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 91,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 92,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 116,
+				"parent" : 13
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 393,
+				"parent" : 26
+			},
+			{
+				"command" : 12,
+				"file" : 3,
+				"line" : 77,
+				"parent" : 13
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 158,
+				"parent" : 29
+			},
+			{
+				"command" : 16,
+				"file" : 5,
+				"line" : 274,
+				"parent" : 26
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 177,
+				"parent" : 31
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 17,
+				"file" : 5,
+				"line" : 536,
+				"parent" : 33
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 471,
+				"parent" : 34
+			},
+			{
+				"command" : 17,
+				"file" : 5,
+				"line" : 536,
+				"parent" : 33
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 471,
+				"parent" : 36
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-DSMTG_RENAME_ASSERT=1"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "/fp:fast"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "/wd6031"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "/wd6308"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/wd6330"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/wd6385"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "/wd6386"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "/wd28125"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "/wd28251"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "/ZI"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "/MDd"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "/wd4221"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DDEVELOPMENT=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 28,
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "mu_law_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/mu-law/build"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/pluginterfaces/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-DSMTG_RENAME_ASSERT=1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DDEVELOPMENT=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 28,
+					"define" : "_UNICODE"
+				},
+				{
+					"define" : "mu_law_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/mu-law/build"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/pluginterfaces/.."
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sdk::@cd6fd055087e8e969d30"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "validator::@cb6a5f45744856ded658"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "moduleinfotool::@0ccd92616ad435ec5cfd"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "mu_law::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /SAFESEH:NO",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\Debug\\sdk.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\Debug\\sdk_common.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib\\Debug\\base.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib\\Debug\\pluginterfaces.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mu_law",
+	"nameOnDisk" : "mu_law.vst3",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				6,
+				7,
+				10
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "source/version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "source/myplugincids.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "source/mypluginprocessor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "source/mypluginprocessor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "source/myplugincontroller.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "source/myplugincontroller.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "source/mypluginentry.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/main/dllmain.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 35,
+			"path" : "resource/C0DA704676815B919799DDCE9EFF8FC1_snapshot.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 37,
+			"path" : "resource/C0DA704676815B919799DDCE9EFF8FC1_snapshot_2.0x.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 1,
+			"path" : "resource/win32resource.rc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

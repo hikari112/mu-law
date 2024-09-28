@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@0735951bbe0919745031",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk/base",
+		"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,170 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_CustomModuleTarget.cmake",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Libraries"
+	},
+	"id" : "cmake_modules::@84df0381bbe72cab14f2",
+	"name" : "cmake_modules",
+	"paths" : 
+	{
+		"build" : "vst3sdk",
+		"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_CustomModuleTarget.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddCommonOptions.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddSMTGLibrary.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddSubDirectories.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Bundle.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_CodeSign.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_ConfigureCmakeGenerator.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_DetectPlatform.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_ExportedSymbols.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_GenerateSourceGroups.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Global.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformIOS.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Platform_Windows.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PrefixHeader.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_SetDebugExecutable.cmake",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_UniversalBinary.cmake",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

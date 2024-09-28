@@ -1,0 +1,40 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Predefined"
+	},
+	"id" : "ALL_BUILD::@0e710dd5baaf1ba5f04c",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "vst3sdk/pluginterfaces",
+		"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/pluginterfaces"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

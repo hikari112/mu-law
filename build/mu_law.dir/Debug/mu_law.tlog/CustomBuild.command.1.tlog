@@ -1,0 +1,34 @@
+^C:\USERS\TABU1\DOCUMENTS\VST DEV\MU-LAW\RESOURCE\C0DA704676815B919799DDCE9EFF8FC1_SNAPSHOT.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/tabu1/Documents/VST DEV/mu-law/resource/C0DA704676815B919799DDCE9EFF8FC1_snapshot.png" "C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Debug/mu_law.vst3/Contents/Resources/Snapshots/C0DA704676815B919799DDCE9EFF8FC1_snapshot.png"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/tabu1/Documents/VST DEV/mu-law/resource/C0DA704676815B919799DDCE9EFF8FC1_snapshot.png to C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Debug/mu_law.vst3/Contents/Resources/Snapshots/C0DA704676815B919799DDCE9EFF8FC1_snapshot.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TABU1\DOCUMENTS\VST DEV\MU-LAW\RESOURCE\C0DA704676815B919799DDCE9EFF8FC1_SNAPSHOT_2.0X.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/tabu1/Documents/VST DEV/mu-law/resource/C0DA704676815B919799DDCE9EFF8FC1_snapshot_2.0x.png" "C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Debug/mu_law.vst3/Contents/Resources/Snapshots/C0DA704676815B919799DDCE9EFF8FC1_snapshot_2.0x.png"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/tabu1/Documents/VST DEV/mu-law/resource/C0DA704676815B919799DDCE9EFF8FC1_snapshot_2.0x.png to C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Debug/mu_law.vst3/Contents/Resources/Snapshots/C0DA704676815B919799DDCE9EFF8FC1_snapshot_2.0x.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TABU1\DOCUMENTS\VST DEV\MU-LAW\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/tabu1/Documents/VST DEV/mu-law" "-BC:/Users/tabu1/Documents/VST DEV/mu-law/build" --check-stamp-file "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

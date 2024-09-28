@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+		"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp"
+	}
+}

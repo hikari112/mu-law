@@ -1,0 +1,358 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.29.4/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/templates/projectversion.h.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_VST3_SDK.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Global.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_DetectPlatform.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLanguage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_ConfigureCmakeGenerator.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_ExportedSymbols.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddVST3Library.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddSMTGLibrary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePrintHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_UniversalBinary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_CodeSign.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_SetDebugExecutable.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddCommonOptions.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Platform_Windows.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Bundle.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_ExportedSymbols.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PrefixHeader.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformIOS.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_CoreAudioSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AAXSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_VstGuiSupport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_UniversalBinary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddVST3Options.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_SetupVST3LibraryDefaultPath.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddCommonOptions.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_Platform_Windows.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_FindJack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_CustomModuleTarget.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/interappaudio/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddSubDirectories.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/audiohost/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/validator/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_AddSubDirectories.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/tabu1/Documents/VST DEV/mu-law/build",
+		"source" : "C:/Users/tabu1/Documents/VST DEV/mu-law"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
