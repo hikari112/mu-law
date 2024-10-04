@@ -24,7 +24,31 @@ tresult PLUGIN_API muLawController::initialize (FUnknown* context)
 		return result;
 	}
 
-	// Here you could register some parameters
+	parameters.addParameter(
+							STR16("Gain")
+						  , STR16("dB")
+						  , 0
+						  , 0.1
+						  , Vst::ParameterInfo::kCanAutomate
+						  , GainParams::kParamGainId
+						  , 0);
+
+	parameters.addParameter(
+							STR16("Output Gain")
+						  , STR16("dB")
+						  , 0
+						  , 0.5
+						  , Vst::ParameterInfo::kCanAutomate
+						  , GainParams::kParamOutGainId
+						  , 1);
+	parameters.addParameter(
+							STR16("Mu")
+						  , STR16("Mu")
+						  , 0
+						  , 0.5
+						  , Vst::ParameterInfo::kCanAutomate
+						  , muParams::kParamMuId
+						  , 2);
 
 	return result;
 }

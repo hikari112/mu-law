@@ -60,7 +60,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\vstgui4;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
@@ -76,16 +76,16 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;CMAKE_INTDIR="Debug";mu_law_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;VSTGUI_LIVE_EDITING;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;CMAKE_INTDIR="Debug";mu_law_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;CMAKE_INTDIR=\"Debug\";mu_law_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;VSTGUI_LIVE_EDITING;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;CMAKE_INTDIR=\"Debug\";mu_law_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\vstgui4;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\vstgui4;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,7 +172,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>lib\Debug\sdk.lib;lib\Debug\sdk_common.lib;lib\Debug\base.lib;lib\Debug\pluginterfaces.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\Debug\vstgui_support.lib;lib\Debug\sdk.lib;lib\Debug\vstgui_uidescription.lib;lib\Debug\vstgui.lib;lib\Debug\sdk_common.lib;lib\Debug\base.lib;lib\Debug\pluginterfaces.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -188,7 +188,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\vstgui4;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251;4221</DisableSpecificWarnings>
@@ -207,16 +207,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <StringPooling>true</StringPooling>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;CMAKE_INTDIR="Release";mu_law_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;CMAKE_INTDIR="Release";mu_law_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;CMAKE_INTDIR=\"Release\";mu_law_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;VSTGUI_ENABLE_DEPRECATED_METHODS=1;SMTG_MODULE_IS_BUNDLE=1;CMAKE_INTDIR=\"Release\";mu_law_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\vstgui4;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\tabu1\Documents\VST DEV\mu-law\build;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\vstgui4;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\base\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\..;C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\pluginterfaces\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -303,7 +303,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>lib\Release\sdk.lib;lib\Release\sdk_common.lib;lib\Release\base.lib;lib\Release\pluginterfaces.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\Release\vstgui_support.lib;lib\Release\sdk.lib;lib\Release\vstgui_uidescription.lib;lib\Release\vstgui.lib;lib\Release\sdk_common.lib;lib\Release\base.lib;lib\Release\pluginterfaces.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -316,6 +316,40 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tabu1\Documents\VST DEV\mu-law\resource\myplugineditor.uidesc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating VST3/Debug/$(TargetFileName)/Contents/Resources/myplugineditor.uidesc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/tabu1/Documents/VST DEV/mu-law/resource/myplugineditor.uidesc" "C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Debug/$(TargetFileName)/Contents/Resources/myplugineditor.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/tabu1/Documents/VST DEV/mu-law/resource/myplugineditor.uidesc to C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Debug/$(TargetFileName)/Contents/Resources/myplugineditor.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tabu1\Documents\VST DEV\mu-law\build\VST3\Debug\$(TargetFileName)\Contents\Resources\myplugineditor.uidesc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating VST3/Release/$(TargetFileName)/Contents/Resources/myplugineditor.uidesc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/tabu1/Documents/VST DEV/mu-law/resource/myplugineditor.uidesc" "C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Release/$(TargetFileName)/Contents/Resources/myplugineditor.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/tabu1/Documents/VST DEV/mu-law/resource/myplugineditor.uidesc to C:/Users/tabu1/Documents/VST DEV/mu-law/build/VST3/Release/$(TargetFileName)/Contents/Resources/myplugineditor.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tabu1\Documents\VST DEV\mu-law\build\VST3\Release\$(TargetFileName)\Contents\Resources\myplugineditor.uidesc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\tabu1\Documents\VST DEV\mu-law\resource\C0DA704676815B919799DDCE9EFF8FC1_snapshot.png">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating VST3/Debug/$(TargetFileName)/Contents/Resources/Snapshots/C0DA704676815B919799DDCE9EFF8FC1_snapshot.png</Message>
@@ -423,6 +457,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\myplugincontroller.h" />
     <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\myplugincontroller.cpp" />
     <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\mypluginentry.cpp" />
+    <ClInclude Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\effects.h" />
+    <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\effects.cpp" />
+    <ClInclude Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\vstmath.h" />
+    <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\vstmath.cpp" />
     <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp" />
     <ResourceCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\resource\win32resource.rc" />
   </ItemGroup>
@@ -456,6 +494,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
       <Project>{E2612650-90B8-346A-93DE-5DE667315E39}</Project>
       <Name>validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\VSTGUI.build\vstgui\lib\vstgui.vcxproj">
+      <Project>{FAAD4689-F735-3A85-838B-5A6F0C3C7074}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\vstgui_support.vcxproj">
+      <Project>{437EC4A6-4647-3E21-AB3A-687CDE2EA6C8}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\VSTGUI.build\vstgui\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{2054A74A-551C-3AB2-B867-20E08DD3E272}</Project>
+      <Name>vstgui_uidescription</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,0 +1,421 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/Debug/vstgui_support.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"smtg_enable_vstgui_support",
+			"target_link_libraries",
+			"add_compile_options",
+			"smtg_setup_platform_toolset",
+			"target_compile_definitions",
+			"smtg_target_prepare_bundle",
+			"smtg_target_setup_vstgui_deprecated_methods",
+			"add_definitions",
+			"target_include_directories",
+			"include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_VstGuiSupport.cmake",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/CMakeLists.txt",
+			"C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 11,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 78,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 85,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 89,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 90,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 91,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 92,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 109,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 116,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 77,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 17
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DSMTG_RENAME_ASSERT=1"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/fp:fast"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/wd6031"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/wd6308"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "/wd6330"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/wd6385"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "/wd6386"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd28125"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "/wd28251"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "/ZI"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "/MDd"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEVELOPMENT=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 18,
+					"define" : "SMTG_MODULE_IS_BUNDLE=1"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "VSTGUI_ENABLE_DEPRECATED_METHODS=1"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "VSTGUI_LIVE_EDITING"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "vstgui::@54a0746fa10a39fdb5d0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Libraries"
+	},
+	"id" : "vstgui_support::@84df0381bbe72cab14f2",
+	"name" : "vstgui_support",
+	"nameOnDisk" : "vstgui_support.lib",
+	"paths" : 
+	{
+		"build" : "vst3sdk",
+		"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/plugin-bindings/vst3groupcontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/plugin-bindings/vst3groupcontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/plugin-bindings/vst3padcontroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/plugin-bindings/vst3padcontroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/plugin-bindings/vst3editor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/plugin-bindings/vst3editor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstguieditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstgui_win32_bundle_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstgui_win32_bundle_support.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

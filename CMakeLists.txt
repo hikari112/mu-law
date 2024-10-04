@@ -31,6 +31,10 @@ smtg_add_vst3plugin(mu_law
     source/myplugincontroller.h
     source/myplugincontroller.cpp
     source/mypluginentry.cpp
+    source/effects.h
+    source/effects.cpp
+    source/vstmath.h
+    source/vstmath.cpp
 )
 
 #- VSTGUI Wanted ----

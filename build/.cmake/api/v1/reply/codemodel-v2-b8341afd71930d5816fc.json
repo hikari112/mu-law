@@ -1,0 +1,1078 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						10
+					]
+				},
+				{
+					"build" : "vst3sdk",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						16
+					],
+					"jsonFile" : "directory-vst3sdk-Debug-3e086be5be42a7dba88b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk",
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						18
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build-Debug-f29afc30c0ea06b70c94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui-Debug-50af7bd36ff15724ffef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/lib",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.lib-Debug-a2770cab21634ef1a4a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/lib",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/uidescription",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.uidescription-Debug-891f4f52324f450f4677.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/standalone",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.standalone-Debug-1222a7a3f0418313ed7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/standalone",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "vst3sdk/pluginterfaces",
+					"jsonFile" : "directory-vst3sdk.pluginterfaces-Debug-820afb6473071d516319.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/pluginterfaces",
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"build" : "vst3sdk/base",
+					"jsonFile" : "directory-vst3sdk.base-Debug-910c82c42b00079d08d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk",
+					"jsonFile" : "directory-vst3sdk.public.sdk-Debug-526055d1f78d4b466b42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk",
+					"targetIndexes" : 
+					[
+						4,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/interappaudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.interappaudio-Debug-73be678869739efc5433.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/interappaudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting-Debug-3e9ddb389799b5567cbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/audiohost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.audiohost-Debug-3cfbfddebc88795004d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/audiohost"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.editorhost-Debug-14c0bcdda8954f562510.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.inspectorapp-Debug-b498d5f8cb17b4529c47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.validator-Debug-354a2e65fbaba41f5e36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities-Debug-d6e6be8f55bcceee4162.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities.moduleinfotool-Debug-fd0e8b4b5169910ef135.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mu_law",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"name" : "vstsdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						9,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "smtg_pluginterfaces",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "smtg_base",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "smtg_public_sdk",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-1344943a066d33883ce4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-ALL_BUILD-Debug-56efb641a256b2038e5b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-ALL_BUILD-Debug-f20c5f59fff993f0cb44.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@0735951bbe0919745031",
+					"jsonFile" : "target-ALL_BUILD-Debug-c649ca1095980776c2bb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-ALL_BUILD-Debug-28e7452f878393429f03.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-3ed1a47f6213ff871b4e.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "base::@0735951bbe0919745031",
+					"jsonFile" : "target-base-Debug-91cef87a3a942f3f3cfc.json",
+					"name" : "base",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_VST_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_VST_modules-Debug-9eac028913cef9d1fc9b.json",
+					"name" : "cmake_VST_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_modules-Debug-9ecff1b5162f04263aea.json",
+					"name" : "cmake_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "moduleinfotool::@0ccd92616ad435ec5cfd",
+					"jsonFile" : "target-moduleinfotool-Debug-fa03271603be37b3de86.json",
+					"name" : "moduleinfotool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mu_law::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mu_law-Debug-afaf1e6ec6c8d9768fc3.json",
+					"name" : "mu_law",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-pluginterfaces-Debug-1272a898ac0e518c353e.json",
+					"name" : "pluginterfaces",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk-Debug-97477ca8d1ce631aca94.json",
+					"name" : "sdk",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_common::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_common-Debug-9a45b6d428617d631923.json",
+					"name" : "sdk_common",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_hosting::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_hosting-Debug-8f18a737292845074a4e.json",
+					"name" : "sdk_hosting",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "validator::@cb6a5f45744856ded658",
+					"jsonFile" : "target-validator-Debug-78dd73bf416bc5b9921d.json",
+					"name" : "validator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vstgui::@54a0746fa10a39fdb5d0",
+					"jsonFile" : "target-vstgui-Debug-05a18cde09b83d9b6280.json",
+					"name" : "vstgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "vstgui_standalone::@ba128293594f8ecb9757",
+					"jsonFile" : "target-vstgui_standalone-Debug-50346a4af9c06bd32eee.json",
+					"name" : "vstgui_standalone",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vstgui_support::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-vstgui_support-Debug-82348ae0335e8d4e24a6.json",
+					"name" : "vstgui_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b",
+					"jsonFile" : "target-vstgui_uidescription-Debug-3f66f69dc2ee52928616.json",
+					"name" : "vstgui_uidescription",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						10
+					]
+				},
+				{
+					"build" : "vst3sdk",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						10,
+						11,
+						16
+					],
+					"jsonFile" : "directory-vst3sdk-Release-3e086be5be42a7dba88b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk",
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						18
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build-Release-f29afc30c0ea06b70c94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui-Release-50af7bd36ff15724ffef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui"
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/lib",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.lib-Release-a2770cab21634ef1a4a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/lib",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/uidescription",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.uidescription-Release-891f4f52324f450f4677.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "vst3sdk/VSTGUI.build/vstgui/standalone",
+					"jsonFile" : "directory-vst3sdk.VSTGUI.build.vstgui.standalone-Release-1222a7a3f0418313ed7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4/vstgui/standalone",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "vst3sdk/pluginterfaces",
+					"jsonFile" : "directory-vst3sdk.pluginterfaces-Release-820afb6473071d516319.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/pluginterfaces",
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"build" : "vst3sdk/base",
+					"jsonFile" : "directory-vst3sdk.base-Release-910c82c42b00079d08d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/base",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk",
+					"jsonFile" : "directory-vst3sdk.public.sdk-Release-526055d1f78d4b466b42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk",
+					"targetIndexes" : 
+					[
+						4,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/source/vst/interappaudio",
+					"jsonFile" : "directory-vst3sdk.public.sdk.source.vst.interappaudio-Release-73be678869739efc5433.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/interappaudio"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting-Release-3e9ddb389799b5567cbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/audiohost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.audiohost-Release-3cfbfddebc88795004d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/audiohost"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/editorhost",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.editorhost-Release-14c0bcdda8954f562510.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/editorhost"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/inspectorapp",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.inspectorapp-Release-b498d5f8cb17b4529c47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/inspectorapp"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-hosting.validator-Release-354a2e65fbaba41f5e36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-hosting/validator",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities-Release-d6e6be8f55bcceee4162.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities"
+				},
+				{
+					"build" : "vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"jsonFile" : "directory-vst3sdk.public.sdk.samples.vst-utilities.moduleinfotool-Release-fd0e8b4b5169910ef135.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.0"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mu_law",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"name" : "vstsdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						8,
+						9,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "smtg_pluginterfaces",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "smtg_base",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "smtg_public_sdk",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-1344943a066d33883ce4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-ALL_BUILD-Release-56efb641a256b2038e5b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-ALL_BUILD-Release-f20c5f59fff993f0cb44.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@0735951bbe0919745031",
+					"jsonFile" : "target-ALL_BUILD-Release-c649ca1095980776c2bb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-ALL_BUILD-Release-28e7452f878393429f03.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-3ed1a47f6213ff871b4e.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "base::@0735951bbe0919745031",
+					"jsonFile" : "target-base-Release-822f9057095aff39d018.json",
+					"name" : "base",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_VST_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_VST_modules-Release-9eac028913cef9d1fc9b.json",
+					"name" : "cmake_VST_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmake_modules::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-cmake_modules-Release-9ecff1b5162f04263aea.json",
+					"name" : "cmake_modules",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "moduleinfotool::@0ccd92616ad435ec5cfd",
+					"jsonFile" : "target-moduleinfotool-Release-b51a24c1795ab2553a8f.json",
+					"name" : "moduleinfotool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mu_law::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mu_law-Release-b7de3f63fa43af57ada6.json",
+					"name" : "mu_law",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c",
+					"jsonFile" : "target-pluginterfaces-Release-c5420affbcf8b87df724.json",
+					"name" : "pluginterfaces",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk-Release-606aacfb3845b8de3faf.json",
+					"name" : "sdk",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_common::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_common-Release-8ce5778fcd61b5580965.json",
+					"name" : "sdk_common",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sdk_hosting::@cd6fd055087e8e969d30",
+					"jsonFile" : "target-sdk_hosting-Release-cb7e39432b9d1629ec84.json",
+					"name" : "sdk_hosting",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "validator::@cb6a5f45744856ded658",
+					"jsonFile" : "target-validator-Release-c1fd0a6ab535e4edbbc9.json",
+					"name" : "validator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vstgui::@54a0746fa10a39fdb5d0",
+					"jsonFile" : "target-vstgui-Release-c5ff49e48ede1c014302.json",
+					"name" : "vstgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "vstgui_standalone::@ba128293594f8ecb9757",
+					"jsonFile" : "target-vstgui_standalone-Release-8451e92304dc5d7a6132.json",
+					"name" : "vstgui_standalone",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vstgui_support::@84df0381bbe72cab14f2",
+					"jsonFile" : "target-vstgui_support-Release-56ec5535b4fdd6283ea5.json",
+					"name" : "vstgui_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b",
+					"jsonFile" : "target-vstgui_uidescription-Release-4c1d647a59f19ecdcd4f.json",
+					"name" : "vstgui_uidescription",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/tabu1/Documents/VST DEV/mu-law/build",
+		"source" : "C:/Users/tabu1/Documents/VST DEV/mu-law"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

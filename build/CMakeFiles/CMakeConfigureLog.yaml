@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.2+c078802d4 for .NET Framework
-      Build started 9/28/2024 10:39:11 AM.
+      Build started 10/4/2024 2:04:50 AM.
       
       Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\3.29.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.94
+      Time Elapsed 00:00:00.46
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.2+c078802d4 for .NET Framework
-      Build started 9/28/2024 10:39:12 AM.
+      Build started 10/4/2024 2:04:50 AM.
       
       Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\3.29.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.57
+      Time Elapsed 00:00:00.47
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-nwn8ax"
-      binary: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-nwn8ax"
+      source: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-gvwhlu"
+      binary: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-gvwhlu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -138,40 +138,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-nwn8ax'
+        Change Dir: 'C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-gvwhlu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_42024.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_856df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/28/2024 10:39:13 AM.
+        Build started 10/4/2024 2:04:51 AM.
         
-        Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwn8ax\\cmTC_42024.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvwhlu\\cmTC_856df.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_42024.dir\\Debug\\".
+          Creating directory "cmTC_856df.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwn8ax\\Debug\\".
-          Creating directory "cmTC_42024.dir\\Debug\\cmTC_42024.tlog\\".
+          Creating directory "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvwhlu\\Debug\\".
+          Creating directory "cmTC_856df.dir\\Debug\\cmTC_856df.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_42024.dir\\Debug\\cmTC_42024.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_42024.dir\\Debug\\cmTC_42024.tlog\\unsuccessfulbuild".
+          Creating "cmTC_856df.dir\\Debug\\cmTC_856df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_856df.dir\\Debug\\cmTC_856df.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42024.dir\\Debug\\\\" /Fd"cmTC_42024.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_856df.dir\\Debug\\\\" /Fd"cmTC_856df.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42024.dir\\Debug\\\\" /Fd"cmTC_42024.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_856df.dir\\Debug\\\\" /Fd"cmTC_856df.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwn8ax\\Debug\\cmTC_42024.exe" /INCREMENTAL /ILK:"cmTC_42024.dir\\Debug\\cmTC_42024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-nwn8ax/Debug/cmTC_42024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-nwn8ax/Debug/cmTC_42024.lib" /MACHINE:X64  /machine:x64 cmTC_42024.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_42024.vcxproj -> C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwn8ax\\Debug\\cmTC_42024.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvwhlu\\Debug\\cmTC_856df.exe" /INCREMENTAL /ILK:"cmTC_856df.dir\\Debug\\cmTC_856df.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-gvwhlu/Debug/cmTC_856df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-gvwhlu/Debug/cmTC_856df.lib" /MACHINE:X64  /machine:x64 cmTC_856df.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_856df.vcxproj -> C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvwhlu\\Debug\\cmTC_856df.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_42024.dir\\Debug\\cmTC_42024.tlog\\unsuccessfulbuild".
-          Touching "cmTC_42024.dir\\Debug\\cmTC_42024.tlog\\cmTC_42024.lastbuildstate".
-        Done Building Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nwn8ax\\cmTC_42024.vcxproj" (default targets).
+          Deleting file "cmTC_856df.dir\\Debug\\cmTC_856df.tlog\\unsuccessfulbuild".
+          Touching "cmTC_856df.dir\\Debug\\cmTC_856df.tlog\\cmTC_856df.lastbuildstate".
+        Done Building Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvwhlu\\cmTC_856df.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.50
+        Time Elapsed 00:00:00.45
         
       exitCode: 0
   -
@@ -211,8 +211,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-3gm3po"
-      binary: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-3gm3po"
+      source: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-cvodtj"
+      binary: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-cvodtj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -223,40 +223,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-3gm3po'
+        Change Dir: 'C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-cvodtj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b7145.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd8de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/28/2024 10:39:14 AM.
+        Build started 10/4/2024 2:04:51 AM.
         
-        Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gm3po\\cmTC_b7145.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvodtj\\cmTC_cd8de.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b7145.dir\\Debug\\".
+          Creating directory "cmTC_cd8de.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gm3po\\Debug\\".
-          Creating directory "cmTC_b7145.dir\\Debug\\cmTC_b7145.tlog\\".
+          Creating directory "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvodtj\\Debug\\".
+          Creating directory "cmTC_cd8de.dir\\Debug\\cmTC_cd8de.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b7145.dir\\Debug\\cmTC_b7145.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b7145.dir\\Debug\\cmTC_b7145.tlog\\unsuccessfulbuild".
+          Creating "cmTC_cd8de.dir\\Debug\\cmTC_cd8de.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cd8de.dir\\Debug\\cmTC_cd8de.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7145.dir\\Debug\\\\" /Fd"cmTC_b7145.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd8de.dir\\Debug\\\\" /Fd"cmTC_cd8de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7145.dir\\Debug\\\\" /Fd"cmTC_b7145.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd8de.dir\\Debug\\\\" /Fd"cmTC_cd8de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gm3po\\Debug\\cmTC_b7145.exe" /INCREMENTAL /ILK:"cmTC_b7145.dir\\Debug\\cmTC_b7145.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-3gm3po/Debug/cmTC_b7145.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-3gm3po/Debug/cmTC_b7145.lib" /MACHINE:X64  /machine:x64 cmTC_b7145.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_b7145.vcxproj -> C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gm3po\\Debug\\cmTC_b7145.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvodtj\\Debug\\cmTC_cd8de.exe" /INCREMENTAL /ILK:"cmTC_cd8de.dir\\Debug\\cmTC_cd8de.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-cvodtj/Debug/cmTC_cd8de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-cvodtj/Debug/cmTC_cd8de.lib" /MACHINE:X64  /machine:x64 cmTC_cd8de.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cd8de.vcxproj -> C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvodtj\\Debug\\cmTC_cd8de.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b7145.dir\\Debug\\cmTC_b7145.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b7145.dir\\Debug\\cmTC_b7145.tlog\\cmTC_b7145.lastbuildstate".
-        Done Building Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gm3po\\cmTC_b7145.vcxproj" (default targets).
+          Deleting file "cmTC_cd8de.dir\\Debug\\cmTC_cd8de.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cd8de.dir\\Debug\\cmTC_cd8de.tlog\\cmTC_cd8de.lastbuildstate".
+        Done Building Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvodtj\\cmTC_cd8de.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.50
+        Time Elapsed 00:00:00.46
         
       exitCode: 0
   -
@@ -296,8 +296,8 @@ events:
     checks:
       - "Performing Test SMTG_USE_STDATOMIC_H"
     directories:
-      source: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-uofimt"
-      binary: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-uofimt"
+      source: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-kmjjl9"
+      binary: "C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-kmjjl9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -308,54 +308,54 @@ events:
       variable: "SMTG_USE_STDATOMIC_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-uofimt'
+        Change Dir: 'C:/Users/tabu1/Documents/VST DEV/mu-law/build/CMakeFiles/CMakeScratch/TryCompile-kmjjl9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_acef3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1b96e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/28/2024 10:39:15 AM.
+        Build started 10/4/2024 2:04:52 AM.
         
-        Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_acef3.dir\\Debug\\".
+          Creating directory "cmTC_1b96e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\Debug\\".
-          Creating directory "cmTC_acef3.dir\\Debug\\cmTC_acef3.tlog\\".
+          Creating directory "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\Debug\\".
+          Creating directory "cmTC_1b96e.dir\\Debug\\cmTC_1b96e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_acef3.dir\\Debug\\cmTC_acef3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_acef3.dir\\Debug\\cmTC_acef3.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1b96e.dir\\Debug\\cmTC_1b96e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1b96e.dir\\Debug\\cmTC_1b96e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_acef3.dir\\Debug\\\\" /Fd"cmTC_acef3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1b96e.dir\\Debug\\\\" /Fd"cmTC_1b96e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_acef3.dir\\Debug\\\\" /Fd"cmTC_acef3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1b96e.dir\\Debug\\\\" /Fd"cmTC_1b96e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx"
           src.cxx
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-        Done Building Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj" (default targets) -- FAILED.
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+        C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+        Done Building Project "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj" (default target) (1) ->
+        "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
         
         
-        "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj" (default target) (1) ->
+        "C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
-          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uofimt\\cmTC_acef3.vcxproj]
+          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
+          C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Users\\tabu1\\Documents\\VST DEV\\mu-law\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmjjl9\\cmTC_1b96e.vcxproj]
         
             1 Warning(s)
             5 Error(s)
         
-        Time Elapsed 00:00:00.37
+        Time Elapsed 00:00:00.30
         
       exitCode: 1
 ...

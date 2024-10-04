@@ -9,7 +9,7 @@
 #include "pluginterfaces/vst/ivstparameterchanges.h"
 
 #include "public.sdk/source/vst/vstaudioprocessoralgo.h"
-#include "cmath"
+#include "effects.h"
 
 using namespace Steinberg;
 
@@ -69,9 +69,7 @@ tresult PLUGIN_API muLawProcessor::setActive (TBool state)
 //------------------------------------------------------------------------
 tresult PLUGIN_API muLawProcessor::process (Vst::ProcessData& data)
 {
-	//--- First : Read inputs parameter changes-----------
 
-	/*if (data.inputParameterChanges)
 	{
 		int32 numParamsChanged = data.inputParameterChanges->getParameterCount ();
 		for (int32 index = 0; index < numParamsChanged; index++)
@@ -83,10 +81,22 @@ tresult PLUGIN_API muLawProcessor::process (Vst::ProcessData& data)
 				int32 numPoints = paramQueue->getPointCount ();
 				switch (paramQueue->getParameterId ())
 				{
+					case GainParams::kParamGainId:
+						if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+							mGain = value;
+							break;
+					case GainParams::kParamOutGainId:
+						if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) ==  kResultTrue)
+							oGain = value;
+							break;
+					case muParams::kParamMuId:
+						if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+							mu = value; // no idea if we need a break statement
+							break;
 				}
 			}
 		}
-	}*/
+	}
 	
 	//--- Here you have to implement your processing
 
@@ -111,21 +121,15 @@ tresult PLUGIN_API muLawProcessor::process (Vst::ProcessData& data)
 		Vst::Sample32* ptrIn = (Vst::Sample32*)in[i];
 		Vst::Sample32* ptrOut = (Vst::Sample32*)out[i];
 		Vst::Sample32 currentSample;
-		float sgnX;
-		Vst::Sample32 muLaw;
-		float mu = 255.0;
 
 		while (--samples >= 0)
 		{
 			currentSample = (*ptrIn++);
+			currentSample = Effects::gain(currentSample, mGain, 1.0f);
+			currentSample = Effects::muLaw(currentSample, mu);
+			currentSample = Effects::gain(currentSample, oGain, 8.0f);
 
-			if (currentSample >= 0.0)
-				sgnX = 1.0;
-			else
-				sgnX = -1.0;
-
-			muLaw = sgnX * (log(1 + mu * abs(currentSample)) / log(1 + mu));
-			(*ptrOut++) = muLaw;
+			(*ptrOut++) = currentSample;
 
 		}
 	}
@@ -171,17 +175,30 @@ tresult PLUGIN_API muLawProcessor::canProcessSampleSize (int32 symbolicSampleSiz
 //------------------------------------------------------------------------
 tresult PLUGIN_API muLawProcessor::setState (IBStream* state)
 {
-	// called when we load a preset, the model has to be reloaded
+	// float toSaveParam1 = mGain;
+	// float toSaveParam2 = oGain;
+	// float toSaveParam3 = mu;
+
 	IBStreamer streamer (state, kLittleEndian);
-	
+
+	// streamer.writeFloat(toSaveParam1);						// ok lets make this an array lmfao
+	// streamer.writeFloat(toSaveParam2);
+	// streamer.writeFloat(toSaveParam3);
 	return kResultOk;
 }
 
 //------------------------------------------------------------------------
 tresult PLUGIN_API muLawProcessor::getState (IBStream* state)
 {
-	// here we need to save the model
+	// if (!state)
+	// 	return kResultFalse;
+
 	IBStreamer streamer (state, kLittleEndian);
+	// float savedParam1 = 0.f;
+	// float savedParam2 = 0.f;
+	// float savedParam3 = 0.f;
+	// if (streamer.readFloat(savedParam1) == false)
+	// 	return 
 
 	return kResultOk;
 }

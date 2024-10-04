@@ -135,6 +135,22 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{E2612650-90B8-346A-93DE-5DE667315E39}</Project>
       <Name>validator</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\VSTGUI.build\vstgui\lib\vstgui.vcxproj">
+      <Project>{FAAD4689-F735-3A85-838B-5A6F0C3C7074}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\VSTGUI.build\vstgui\standalone\vstgui_standalone.vcxproj">
+      <Project>{D0FA79E0-D583-376E-882C-A7A311838B03}</Project>
+      <Name>vstgui_standalone</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\vstgui_support.vcxproj">
+      <Project>{437EC4A6-4647-3E21-AB3A-687CDE2EA6C8}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\VSTGUI.build\vstgui\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{2054A74A-551C-3AB2-B867-20E08DD3E272}</Project>
+      <Name>vstgui_uidescription</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

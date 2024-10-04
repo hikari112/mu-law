@@ -50,7 +50,9 @@ public:
 
 //------------------------------------------------------------------------
 protected:
-
+	Steinberg::Vst::ParamValue mGain = 0.1;
+	Steinberg::Vst::ParamValue oGain = 0.5;
+	Steinberg::Vst::ParamValue mu = 0.5;
 };
 
 //------------------------------------------------------------------------

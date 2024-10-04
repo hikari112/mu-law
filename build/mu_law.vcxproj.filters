@@ -10,6 +10,12 @@
     <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\mypluginentry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\vstmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -27,8 +33,15 @@
     <ClInclude Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\myplugincontroller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tabu1\Documents\VST DEV\mu-law\source\vstmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="C:\Users\tabu1\Documents\VST DEV\mu-law\resource\myplugineditor.uidesc" />
     <CustomBuild Include="C:\Users\tabu1\Documents\VST DEV\mu-law\resource\C0DA704676815B919799DDCE9EFF8FC1_snapshot.png">
       <Filter>Resources</Filter>
     </CustomBuild>

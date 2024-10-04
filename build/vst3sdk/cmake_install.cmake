@@ -34,6 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/tabu1/Documents/VST DEV/mu-law/build/vst3sdk/VSTGUI.build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/tabu1/Documents/VST DEV/mu-law/build/vst3sdk/pluginterfaces/cmake_install.cmake")
 endif()
 

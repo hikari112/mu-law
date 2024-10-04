@@ -14,5 +14,16 @@ static const Steinberg::FUID kmuLawControllerUID (0xE97A8F93, 0xE8DC5A3E, 0xB2DF
 
 #define muLawVST3Category "Fx"
 
+enum GainParams : Steinberg::Vst::ParamID
+{
+    kParamGainId = 102,
+    kParamOutGainId = 103,
+};
+
+enum muParams : Steinberg::Vst::ParamID
+{
+    kParamMuId = 104,
+};
+
 //------------------------------------------------------------------------
 } // namespace MyCompanyName
