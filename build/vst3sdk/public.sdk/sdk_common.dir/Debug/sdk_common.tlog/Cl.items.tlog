@@ -1,8 +1,0 @@
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\common\commoniids.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\commoniids.obj
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\common\openurl.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\openurl.obj
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\common\systemclipboard_linux.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\systemclipboard_linux.obj
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\common\systemclipboard_win32.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\systemclipboard_win32.obj
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\common\threadchecker_linux.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\threadchecker_linux.obj
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\common\threadchecker_win32.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\threadchecker_win32.obj
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\common\readfile.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\readfile.obj
-C:\Users\tabu1\Documents\VST DEV\VST_SDK\vst3sdk\public.sdk\source\vst\vstpresetfile.cpp;C:\Users\tabu1\Documents\VST DEV\mu-law\build\vst3sdk\public.sdk\sdk_common.dir\Debug\vstpresetfile.obj
