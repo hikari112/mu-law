@@ -17,9 +17,6 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "vstgui_support::@84df0381bbe72cab14f2"
-		},
-		{
 			"id" : "vstgui::@54a0746fa10a39fdb5d0"
 		},
 		{
@@ -51,6 +48,9 @@
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "vstgui_support::@84df0381bbe72cab14f2"
 		}
 	],
 	"folder" : 

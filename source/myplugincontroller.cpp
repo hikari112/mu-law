@@ -5,6 +5,7 @@
 #include "myplugincontroller.h"
 #include "myplugincids.h"
 
+#include "base/source/fstreamer.h"
 
 using namespace Steinberg;
 
@@ -69,6 +70,24 @@ tresult PLUGIN_API muLawController::setComponentState (IBStream* state)
 	if (!state)
 		return kResultFalse;
 
+	IBStreamer streamer(state, kLittleEndian);
+
+	float savedParams[numberOfParams] = {0.f};
+	for (int32 paramIdx = 0; paramIdx < numberOfParams; paramIdx++)
+	{
+		if (streamer.readFloat(savedParams[paramIdx]) == false)
+			return kResultFalse;
+	}
+
+	if (auto param = parameters.getParameter(GainParams::kParamGainId)) // god this should all be one enum for all params then I could just have an array D:
+		param->setNormalized(savedParams[0]);
+
+	if (auto param = parameters.getParameter(GainParams::kParamOutGainId)) // ok this doesnt work at all the way I've done it.
+		param->setNormalized(savedParams[1]);
+
+	if (auto param = parameters.getParameter(muParams::kParamMuId))
+		param->setNormalized(savedParams[2]);
+
 	return kResultOk;
 }
 
@@ -77,7 +96,7 @@ tresult PLUGIN_API muLawController::setState (IBStream* state)
 {
 	// Here you get the state of the controller
 
-	return kResultTrue;
+	return kResultTrue; // I feeel like we have to use this?
 }
 
 //------------------------------------------------------------------------
@@ -86,7 +105,7 @@ tresult PLUGIN_API muLawController::getState (IBStream* state)
 	// Here you are asked to deliver the state of the controller (if needed)
 	// Note: the real state of your plug-in is saved in the processor
 
-	return kResultTrue;
+	return kResultTrue; // aaaand this??
 }
 
 //------------------------------------------------------------------------

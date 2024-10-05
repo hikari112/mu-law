@@ -20,10 +20,16 @@ enum GainParams : Steinberg::Vst::ParamID
     kParamOutGainId = 103,
 };
 
+/*
+This shit is evil, make it all one enum!
+*/
+
 enum muParams : Steinberg::Vst::ParamID
 {
     kParamMuId = 104,
 };
+
+static const int numberOfParams = 3;
 
 //------------------------------------------------------------------------
 } // namespace MyCompanyName

@@ -175,30 +175,35 @@ tresult PLUGIN_API muLawProcessor::canProcessSampleSize (int32 symbolicSampleSiz
 //------------------------------------------------------------------------
 tresult PLUGIN_API muLawProcessor::setState (IBStream* state)
 {
-	// float toSaveParam1 = mGain;
-	// float toSaveParam2 = oGain;
-	// float toSaveParam3 = mu;
+	IBStreamer streamer(state, kLittleEndian);
 
-	IBStreamer streamer (state, kLittleEndian);
+	Steinberg::Vst::ParamValue paramArray[numberOfParams] = {mGain, oGain, mu};
+	for (int32 paramIdx = 0; paramIdx < numberOfParams; paramIdx++)
+		{
+			streamer.writeFloat(paramArray[paramIdx]);
+		}
 
-	// streamer.writeFloat(toSaveParam1);						// ok lets make this an array lmfao
-	// streamer.writeFloat(toSaveParam2);
-	// streamer.writeFloat(toSaveParam3);
 	return kResultOk;
 }
 
 //------------------------------------------------------------------------
 tresult PLUGIN_API muLawProcessor::getState (IBStream* state)
 {
-	// if (!state)
-	// 	return kResultFalse;
+	if (!state)
+		return kResultFalse;
 
 	IBStreamer streamer (state, kLittleEndian);
-	// float savedParam1 = 0.f;
-	// float savedParam2 = 0.f;
-	// float savedParam3 = 0.f;
-	// if (streamer.readFloat(savedParam1) == false)
-	// 	return 
+
+	float savedParams[numberOfParams] = {0.f};
+	for (int32 paramIdx = 0; paramIdx < numberOfParams; paramIdx++)
+		{
+		if (streamer.readFloat(savedParams[paramIdx]) == false)
+			return kResultFalse;
+		}
+	
+	mGain = savedParams[0];
+	oGain = savedParams[1];
+	mu = savedParams[2];
 
 	return kResultOk;
 }

@@ -1,5 +1,2 @@
-Add Peramiters
-    // Input Gain
-    // Output Gain
-    // Mu
-    
+TODO: Fucking, make all of the perams one enum or some shit idk. This will make
+      setting and getting params way easier.
