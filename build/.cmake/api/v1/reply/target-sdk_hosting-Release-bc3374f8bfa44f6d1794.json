@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/Release/sdk_common.lib"
+			"path" : "lib/Release/sdk_hosting.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -26,8 +26,7 @@
 			"smtg_setup_platform_toolset",
 			"add_definitions",
 			"include_directories",
-			"target_include_directories",
-			"target_sources"
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -43,13 +42,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 169,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 45,
+				"line" : 193,
 				"parent" : 0
 			},
 			{
@@ -172,13 +171,7 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 50,
-				"parent" : 0
-			},
-			{
-				"command" : 7,
-				"file" : 0,
-				"line" : 20,
+				"line" : 197,
 				"parent" : 0
 			}
 		]
@@ -298,18 +291,22 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
+				2,
 				4,
-				5,
-				7,
+				6,
 				8,
-				9,
-				11
+				10,
+				12,
+				15,
+				19
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
 		{
 			"backtrace" : 2,
 			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
@@ -319,16 +316,17 @@
 			"id" : "base::@0735951bbe0919745031"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 2,
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "Libraries"
 	},
-	"id" : "sdk_common::@cd6fd055087e8e969d30",
-	"name" : "sdk_common",
-	"nameOnDisk" : "sdk_common.lib",
+	"id" : "sdk_hosting::@cd6fd055087e8e969d30",
+	"name" : "sdk_hosting",
+	"nameOnDisk" : "sdk_hosting.lib",
 	"paths" : 
 	{
 		"build" : "vst3sdk/public.sdk",
@@ -341,24 +339,31 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
+				2,
 				4,
-				5,
-				7,
+				6,
 				8,
-				9,
-				11
+				10,
+				12,
+				15,
+				19
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				2,
+				1,
 				3,
-				6,
-				10,
-				12
+				5,
+				7,
+				9,
+				11,
+				13,
+				14,
+				16,
+				17,
+				18
 			]
 		}
 	],
@@ -367,75 +372,111 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/commoniids.cpp",
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/openurl.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/openurl.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard.h",
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_linux.cpp",
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker.h",
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/eventlist.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp",
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 24,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/readfile.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 24,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/readfile.h",
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 24,
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp",
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 24,
-			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.h",
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/module.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/processdata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/utility/optional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/utility/stringconvert.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/utility/uid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/utility/versionparser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstinitiids.cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "STATIC_LIBRARY"

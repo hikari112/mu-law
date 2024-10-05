@@ -515,23 +515,7 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "vstgui::@54a0746fa10a39fdb5d0"
-		},
-		{
-			"backtrace" : 4,
-			"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b"
-		},
-		{
-			"backtrace" : 5,
-			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
-		},
-		{
-			"backtrace" : 4,
-			"id" : "base::@0735951bbe0919745031"
-		},
-		{
-			"backtrace" : 5,
-			"id" : "sdk_common::@cd6fd055087e8e969d30"
+			"id" : "vstgui_support::@84df0381bbe72cab14f2"
 		},
 		{
 			"backtrace" : 5,
@@ -550,7 +534,23 @@
 		},
 		{
 			"backtrace" : 4,
-			"id" : "vstgui_support::@84df0381bbe72cab14f2"
+			"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "vstgui::@54a0746fa10a39fdb5d0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
 		}
 	],
 	"id" : "mu_law::@6890427a1f51a3e7e1df",

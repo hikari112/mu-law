@@ -20,22 +20,7 @@
 			"id" : "mu_law::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "vstgui::@54a0746fa10a39fdb5d0"
-		},
-		{
-			"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b"
-		},
-		{
-			"id" : "vstgui_standalone::@ba128293594f8ecb9757"
-		},
-		{
-			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
-		},
-		{
-			"id" : "base::@0735951bbe0919745031"
-		},
-		{
-			"id" : "sdk_common::@cd6fd055087e8e969d30"
+			"id" : "vstgui_support::@84df0381bbe72cab14f2"
 		},
 		{
 			"id" : "sdk::@cd6fd055087e8e969d30"
@@ -53,7 +38,22 @@
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "vstgui_support::@84df0381bbe72cab14f2"
+			"id" : "vstgui_uidescription::@119a8cbf1440fab7ca2b"
+		},
+		{
+			"id" : "vstgui::@54a0746fa10a39fdb5d0"
+		},
+		{
+			"id" : "vstgui_standalone::@ba128293594f8ecb9757"
+		},
+		{
+			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
+		},
+		{
+			"id" : "base::@0735951bbe0919745031"
+		},
+		{
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
 		}
 	],
 	"folder" : 

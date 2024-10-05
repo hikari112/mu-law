@@ -17,9 +17,6 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "sdk_common::@cd6fd055087e8e969d30"
-		},
-		{
 			"id" : "sdk::@cd6fd055087e8e969d30"
 		},
 		{
@@ -27,6 +24,9 @@
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "sdk_common::@cd6fd055087e8e969d30"
 		}
 	],
 	"folder" : 

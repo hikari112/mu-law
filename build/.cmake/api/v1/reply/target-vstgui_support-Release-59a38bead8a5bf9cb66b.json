@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/Debug/vstgui_support.lib"
+			"path" : "lib/Release/vstgui_support.lib"
 		}
 	],
 	"backtrace" : 2,
@@ -83,6 +83,36 @@
 			{
 				"command" : 3,
 				"file" : 2,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 82,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 83,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
 				"line" : 85,
 				"parent" : 4
 			},
@@ -131,13 +161,7 @@
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 109,
-				"parent" : 4
-			},
-			{
-				"command" : 3,
-				"file" : 2,
-				"line" : 116,
+				"line" : 117,
 				"parent" : 4
 			},
 			{
@@ -150,7 +174,7 @@
 				"command" : 5,
 				"file" : 0,
 				"line" : 28,
-				"parent" : 17
+				"parent" : 21
 			},
 			{
 				"command" : 7,
@@ -162,13 +186,7 @@
 				"command" : 5,
 				"file" : 0,
 				"line" : 15,
-				"parent" : 19
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 104,
-				"parent" : 1
+				"parent" : 23
 			},
 			{
 				"command" : 8,
@@ -192,7 +210,7 @@
 				"command" : 11,
 				"file" : 0,
 				"line" : 33,
-				"parent" : 17
+				"parent" : 21
 			}
 		]
 	},
@@ -202,7 +220,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				},
 				{
 					"backtrace" : 5,
@@ -214,76 +232,88 @@
 				},
 				{
 					"backtrace" : 7,
-					"fragment" : "/MP"
+					"fragment" : "/Oi"
 				},
 				{
 					"backtrace" : 8,
-					"fragment" : "/wd6031"
+					"fragment" : "/Ot"
 				},
 				{
 					"backtrace" : 9,
-					"fragment" : "/wd6308"
+					"fragment" : "/GF"
 				},
 				{
 					"backtrace" : 10,
-					"fragment" : "/wd6330"
+					"fragment" : "/EHa"
 				},
 				{
 					"backtrace" : 11,
-					"fragment" : "/wd6385"
+					"fragment" : "/Oy"
 				},
 				{
 					"backtrace" : 12,
-					"fragment" : "/wd6386"
+					"fragment" : "/MP"
 				},
 				{
 					"backtrace" : 13,
-					"fragment" : "/wd28125"
+					"fragment" : "/wd6031"
 				},
 				{
 					"backtrace" : 14,
-					"fragment" : "/wd28251"
+					"fragment" : "/wd6308"
 				},
 				{
 					"backtrace" : 15,
-					"fragment" : "/ZI"
+					"fragment" : "/wd6330"
 				},
 				{
 					"backtrace" : 16,
-					"fragment" : "/MDd"
+					"fragment" : "/wd6385"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "/wd6386"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "/wd28125"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/wd28251"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/MD"
 				},
 				{
 					"backtrace" : 3,
-					"fragment" : "-DDEVELOPMENT=1"
+					"fragment" : "-DRELEASE=1"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 18,
+					"backtrace" : 22,
 					"define" : "SMTG_MODULE_IS_BUNDLE=1"
 				},
 				{
-					"backtrace" : 20,
+					"backtrace" : 24,
 					"define" : "VSTGUI_ENABLE_DEPRECATED_METHODS=1"
 				},
 				{
-					"backtrace" : 21,
-					"define" : "VSTGUI_LIVE_EDITING"
-				},
-				{
-					"backtrace" : 22,
+					"backtrace" : 25,
 					"define" : "_UNICODE"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 23,
+					"backtrace" : 26,
 					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/vstgui4"
 				},
 				{
-					"backtrace" : 24,
+					"backtrace" : 27,
 					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk"
 				},
 				{
@@ -313,8 +343,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "vstgui::@54a0746fa10a39fdb5d0"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
@@ -322,10 +351,11 @@
 		},
 		{
 			"backtrace" : 3,
-			"id" : "base::@0735951bbe0919745031"
+			"id" : "vstgui::@54a0746fa10a39fdb5d0"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 3,
+			"id" : "base::@0735951bbe0919745031"
 		}
 	],
 	"folder" : 
@@ -406,13 +436,13 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 25,
+			"backtrace" : 28,
 			"compileGroupIndex" : 0,
 			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstgui_win32_bundle_support.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 25,
+			"backtrace" : 28,
 			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstgui_win32_bundle_support.h",
 			"sourceGroupIndex" : 1
 		}

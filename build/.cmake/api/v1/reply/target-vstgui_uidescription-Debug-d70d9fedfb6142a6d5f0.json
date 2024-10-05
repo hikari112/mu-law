@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/Release/vstgui_uidescription.lib"
+			"path" : "lib/Debug/vstgui_uidescription.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -77,36 +77,6 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 79,
-				"parent" : 4
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 80,
-				"parent" : 4
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 81,
-				"parent" : 4
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 82,
-				"parent" : 4
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 83,
-				"parent" : 4
-			},
-			{
-				"command" : 2,
-				"file" : 1,
 				"line" : 85,
 				"parent" : 4
 			},
@@ -155,7 +125,13 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 117,
+				"line" : 109,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 116,
 				"parent" : 4
 			},
 			{
@@ -180,7 +156,7 @@
 				"command" : 6,
 				"file" : 3,
 				"line" : 16,
-				"parent" : 23
+				"parent" : 19
 			}
 		]
 	},
@@ -190,7 +166,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /Zi /utf-8 /Zc:__cplusplus /permissive- /MD /O2 /Ob2 /DNDEBUG -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /Zi /utf-8 /Zc:__cplusplus /permissive- /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
 				},
 				{
 					"backtrace" : 5,
@@ -202,89 +178,73 @@
 				},
 				{
 					"backtrace" : 7,
-					"fragment" : "/Oi"
-				},
-				{
-					"backtrace" : 8,
-					"fragment" : "/Ot"
-				},
-				{
-					"backtrace" : 9,
-					"fragment" : "/GF"
-				},
-				{
-					"backtrace" : 10,
-					"fragment" : "/EHa"
-				},
-				{
-					"backtrace" : 11,
-					"fragment" : "/Oy"
-				},
-				{
-					"backtrace" : 12,
 					"fragment" : "/MP"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 8,
 					"fragment" : "/wd6031"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 9,
 					"fragment" : "/wd6308"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 10,
 					"fragment" : "/wd6330"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 11,
 					"fragment" : "/wd6385"
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 12,
 					"fragment" : "/wd6386"
 				},
 				{
-					"backtrace" : 18,
+					"backtrace" : 13,
 					"fragment" : "/wd28125"
 				},
 				{
-					"backtrace" : 19,
+					"backtrace" : 14,
 					"fragment" : "/wd28251"
 				},
 				{
-					"backtrace" : 20,
-					"fragment" : "/MD"
+					"backtrace" : 15,
+					"fragment" : "/ZI"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "/MDd"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 21,
-					"define" : "NDEBUG"
+					"backtrace" : 17,
+					"define" : "DEBUG"
 				},
 				{
-					"backtrace" : 21,
-					"define" : "RELEASE"
-				},
-				{
-					"backtrace" : 21,
+					"backtrace" : 17,
 					"define" : "VSTGUI_ENABLE_DEPRECATED_METHODS=1"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 17,
 					"define" : "VSTGUI_ENABLE_XML_PARSER=1"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 17,
+					"define" : "VSTGUI_LIVE_EDITING"
+				},
+				{
+					"backtrace" : 17,
 					"define" : "VSTGUI_OPENGL_SUPPORT=1"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 17,
 					"define" : "_CRT_SECURE_NO_WARNINGS"
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 18,
 					"define" : "_UNICODE"
 				}
 			],
@@ -293,7 +253,7 @@
 			{
 				"backtraces" : 
 				[
-					24
+					20
 				],
 				"standard" : "17"
 			},
@@ -375,11 +335,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "vstgui::@54a0746fa10a39fdb5d0"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 2,
+			"id" : "vstgui::@54a0746fa10a39fdb5d0"
 		}
 	],
 	"folder" : 

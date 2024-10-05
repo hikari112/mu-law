@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/Debug/sdk_common.lib"
+			"path" : "lib/Release/sdk_common.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -76,6 +76,36 @@
 			{
 				"command" : 2,
 				"file" : 1,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
 				"line" : 85,
 				"parent" : 4
 			},
@@ -124,13 +154,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 109,
-				"parent" : 4
-			},
-			{
-				"command" : 2,
-				"file" : 1,
-				"line" : 116,
+				"line" : 117,
 				"parent" : 4
 			},
 			{
@@ -165,7 +189,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				},
 				{
 					"backtrace" : 5,
@@ -177,64 +201,80 @@
 				},
 				{
 					"backtrace" : 7,
-					"fragment" : "/MP"
+					"fragment" : "/Oi"
 				},
 				{
 					"backtrace" : 8,
-					"fragment" : "/wd6031"
+					"fragment" : "/Ot"
 				},
 				{
 					"backtrace" : 9,
-					"fragment" : "/wd6308"
+					"fragment" : "/GF"
 				},
 				{
 					"backtrace" : 10,
-					"fragment" : "/wd6330"
+					"fragment" : "/EHa"
 				},
 				{
 					"backtrace" : 11,
-					"fragment" : "/wd6385"
+					"fragment" : "/Oy"
 				},
 				{
 					"backtrace" : 12,
-					"fragment" : "/wd6386"
+					"fragment" : "/MP"
 				},
 				{
 					"backtrace" : 13,
-					"fragment" : "/wd28125"
+					"fragment" : "/wd6031"
 				},
 				{
 					"backtrace" : 14,
-					"fragment" : "/wd28251"
+					"fragment" : "/wd6308"
 				},
 				{
 					"backtrace" : 15,
-					"fragment" : "/ZI"
+					"fragment" : "/wd6330"
 				},
 				{
 					"backtrace" : 16,
-					"fragment" : "/MDd"
+					"fragment" : "/wd6385"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "/wd6386"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "/wd28125"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "/wd28251"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "/MD"
 				},
 				{
 					"backtrace" : 2,
-					"fragment" : "-DDEVELOPMENT=1"
+					"fragment" : "-DRELEASE=1"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 17,
+					"backtrace" : 21,
 					"define" : "_UNICODE"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 18,
+					"backtrace" : 22,
 					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk"
 				},
 				{
-					"backtrace" : 19,
+					"backtrace" : 23,
 					"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/.."
 				},
 				{
@@ -271,15 +311,15 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 2,
 			"id" : "pluginterfaces::@0e710dd5baaf1ba5f04c"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "base::@0735951bbe0919745031"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 
@@ -376,24 +416,24 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 24,
 			"compileGroupIndex" : 0,
 			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/readfile.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 24,
 			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/common/readfile.h",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 24,
 			"compileGroupIndex" : 0,
 			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 24,
 			"path" : "C:/Users/tabu1/Documents/VST DEV/VST_SDK/vst3sdk/public.sdk/source/vst/vstpresetfile.h",
 			"sourceGroupIndex" : 1
 		}
